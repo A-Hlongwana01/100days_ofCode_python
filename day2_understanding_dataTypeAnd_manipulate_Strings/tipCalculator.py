@@ -28,8 +28,10 @@ def splitBill(totalBill_plusTip, noPeopleTo_splitBill) ->float:
 
 
 def print_message(split_amount, totalIncBill)-> str:
-    if split_amount == totalIncBill: print("You should pay: ${}".format(round(totalIncBill, 2)))
-    else: print("Each person should pay: ${}".format(round(split_amount, 2)))
+    if split_amount == totalIncBill:
+        print("You should pay: ${:.2f}".format(totalIncBill))
+    else: 
+        print("Each person should pay: ${:.2f}".format(split_amount))
 
 
 if __name__== "__main__":
@@ -40,7 +42,6 @@ if __name__== "__main__":
     tip_ = tipCalc(billTotal, rate)
     totalWith_Tip = totalIncludTip(billTotal, tip_)
     splitAmount = splitBill(totalWith_Tip, noPeople)
-    print(totalWith_Tip)
     print_message(splitAmount,totalWith_Tip)
     
 
