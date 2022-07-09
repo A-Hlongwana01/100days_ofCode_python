@@ -43,8 +43,3 @@ if __name__== "__main__":
     totalWith_Tip = totalIncludTip(billTotal, tip_)
     splitAmount = splitBill(totalWith_Tip, noPeople)
     print_message(splitAmount,totalWith_Tip)
-    
-
-
-
-

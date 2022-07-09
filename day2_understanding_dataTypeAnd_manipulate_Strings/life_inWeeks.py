@@ -59,21 +59,4 @@ def main():
     
     
 if __name__ == "__main__":
-
-
-    # 24 ->12
-    # maxYearsToLive = 90
-    # ages = []
-    # ageTuple = {120,520,3650}
-    # equals_oneYear = [12,52,365]
-    # for index in ageTuple:
-    #     i = 0
-    #     for year in equals_oneYear:
-
-    #         if index % equals_oneYear == 0:
-    #             timeLeftToDie = ((maxYearsToLive*equals_oneYear[i])-index)
-    #             ages.append(timeLeftToDie)
-    #     i+=1
-    
-    # print(ages)
-    print(main())
+       print(main())

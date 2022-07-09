@@ -4,9 +4,7 @@ def yearInput():
 
 
 def isLeapYear(year):
-    # if year % 4 == 0 and year % 100 == 0 and year % 400 == 0:
-    #     return "not a leap year"
-    # else: return "a leap year"\
+
     if year % 4 != 0:
         leapYear = False
     else:

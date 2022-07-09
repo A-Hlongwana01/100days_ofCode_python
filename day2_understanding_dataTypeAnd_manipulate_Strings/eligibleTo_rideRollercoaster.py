@@ -22,4 +22,3 @@ if __name__=="__main__":
     height = userHeight()
     age = userAge()
     accessEvaluator(height, age)
-
