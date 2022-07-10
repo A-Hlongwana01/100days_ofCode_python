@@ -1,2 +1,0 @@
-name: John
-password: john1234!@#

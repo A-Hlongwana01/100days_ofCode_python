@@ -25,15 +25,32 @@ def lastName():
 
 def userName(fname, lname):
     nums = ''
-    for i in range(3):
+    for i in range(4):
         j = random.randint(0,9)
         nums+=str(j)
     if len(lname) >= 7:
         lname = lname[:7]
     userName = fname[:2]+lname+nums
-    print(userName.lower())
+    return userName.lower()
 
 
-fname = firstName()
-lname = lastName()
-userName(fname,lname)
+def passwd() -> str:
+    password = input("Enter password: ")
+    return password
+
+
+def getCredentials(userName, password):
+    creds = []
+    creds.append(userName)
+    creds.append(password)
+    return creds
+
+
+def run():
+    fname = firstName()
+    lname = lastName()
+    user_name = userName(fname,lname)
+    password = passwd()
+    x = getCredentials(user_name, password)
+    return x
+ 
