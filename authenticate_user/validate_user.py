@@ -28,12 +28,4 @@ def match(username_exists, password_exists):
         if passIndex == userIndex:
             print("Access granted")
             return True
-    
-
-def run():
-    passInfo = passwordExist()
-
-
-
-
 
