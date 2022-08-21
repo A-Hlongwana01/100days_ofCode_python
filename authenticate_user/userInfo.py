@@ -2,12 +2,7 @@
 import openpyxl
 from openpyxl import Workbook, load_workbook
 def userNames():
-    wb = load_workbook('authenticate_user/example.xlsx')
-    ws = wb['Sheet1']
-    userNames = []
-    for i in range(2, ws.max_row+1):
-        username = ws["A{}".format(i)].value
-        userNames.append(username)
+    
     return userNames
 # print(userNames())
 
