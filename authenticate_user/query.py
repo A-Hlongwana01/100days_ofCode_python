@@ -2,7 +2,7 @@ import sqlite3
 
 def myQuery(credentials):
     # connecting to database
-    conn = sqlite3.connect("database.db")
+    conn = sqlite3.connect("autdatabase.db")
 
     # creating a cursor
     c = conn.cursor()
@@ -20,5 +20,3 @@ def myQuery(credentials):
     
     conn.commit()
     conn.close()
-
-    

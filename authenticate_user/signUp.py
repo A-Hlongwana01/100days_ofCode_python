@@ -3,7 +3,7 @@ import random
 
 def firstName():
     while True:
-        name = input("First name: ")
+        name = input("First name:   ")
         if name.isalpha() == False:
             print("Oops!! that is not a valid name \nPlease try again")
             continue
@@ -54,3 +54,26 @@ def run():
     x = getCredentials(user_name, password)
     return x
  
+
+######################################################################
+ # from openpyxl import workbook, load_workbook
+
+
+# def addToData(info):
+#     wb = load_workbook("example.xlsx")
+#     ws = wb.active
+#     ws.append(info)
+#     wb.save('example.xlsx')
+
+# info = signUp.run()
+# addToData(info)
+# print("Added successfully")k
+
+def addToData(info):
+    q.myQuery(info)
+                                                                                                                                            
+
+
+info = signUp.run()
+addToData(info)
+print("Added successfully")
