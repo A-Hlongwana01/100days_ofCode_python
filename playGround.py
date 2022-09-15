@@ -2,6 +2,7 @@
 # with open(name, 'w') as a:
 #     addToFile = a.w
 
+from multiprocessing.heap import Arena
 from re import A
 import openpyxl
 from openpyxl.utils import get_column_letter, column_index_from_string
@@ -48,3 +49,10 @@ for i in range(1,sheet.max_row+1):
 
 print(myList.index("aya12"))
 
+dasvvvvvv
+adsfffffffffffvear
+
+Arenavfq
+ar
+ve
+ra
