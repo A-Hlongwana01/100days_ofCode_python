@@ -48,11 +48,3 @@ for i in range(1,sheet.max_row+1):
     myList.append(a)
 
 print(myList.index("aya12"))
-
-dasvvvvvv
-adsfffffffffffvear
-
-Arenavfq
-ar
-ve
-ra
